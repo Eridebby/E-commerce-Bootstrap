@@ -1,0 +1,441 @@
+
+.nav{
+    position: sticky;
+    padding-left: 3rem;
+    padding-top: 1rem;
+}
+
+
+.name{
+    position: relative;
+    top: -1rem;
+    left: 3.6rem;
+    text-decoration: none;
+    font-size: smaller;
+    color: grey;
+  
+}
+
+.logo {
+    position: relative;
+    right: 1rem;
+    font-weight: 100;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+   
+} 
+#navbarSupportedContent{
+    position: relative;
+    padding-left: 10rem;
+    top: -1rem;
+    font-size: smaller;
+    font-weight: 700;
+}
+.line{
+    margin-top: -4rem;
+    border: double;
+}
+
+.home{ 
+    position: relative;
+    top: 7px;
+    right: 10px;
+    text-decoration: none;
+    color: grey;
+}
+.home:hover{
+    color: grey;
+}
+
+.hero-banner{
+    padding-top: 10px;
+    height: 100%;
+    width: 100%;
+    
+   
+ }
+
+.hero-banner img{
+    width: 100%;
+    object-fit: cover;
+ 
+ }
+
+ .img-1 img, .img-5 img{
+    height: 33vh;
+    object-fit: cover;
+ 
+ }
+
+
+ .img-3 img{
+    height: 70.5vh;
+    object-fit: cover;
+  
+
+  
+ }
+ .img-1, .img-3, .img-4, .img-5{
+    position: relative;
+    
+ }
+ .overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, #0000006f, rgba(27, 26, 26, 0.478));
+ 
+ }
+
+ .img-1:hover, .text img {
+     transition: 0.5s ease-in;
+    transform: scale(0.993);
+    cursor: pointer;
+
+ }
+
+ .img-5:hover, .text img{
+    transition: 0.5s ease;
+    transform: scale(0.993);
+    cursor: pointer;
+ }
+
+ .text {
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 80px;
+    color: white;
+ }
+
+ .text p{
+    font-family: 'Courgette', cursive;
+ }
+ .text-3 {
+    position: relative;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+    margin-top: 100px;
+    color: white;
+    padding: 4rem;
+    
+ }
+
+ .text-3 p{
+    font-family: 'Courgette', cursive;
+    font-size: small;
+ }
+
+
+ .link{
+    background: linear-gradient(to top, #0000000f, rgba(0, 0, 0, 0.814));
+    border: 2px solid white;
+    font-size: small;
+    color: white;
+    width: 150px;
+    height: 40px;
+    font-weight: 600;
+ }
+
+ .link a{
+   text-decoration: none;
+   color: white;
+ }
+
+ .link:hover{
+   background: white;
+ }
+ .link a:hover {
+  color: grey;
+ }
+
+ 
+ .text h6{
+    font-weight: 900;
+    font-size: large;
+ }
+
+ .main-hidden{
+    position: absolute;
+ }
+ .hidden {
+    opacity: 0;
+    position: relative;
+    top: -2000%;
+    left: 0.8rem;
+    width: 90%;
+    height: 30vh;
+    -webkit-transition: all 400ms ease-out;
+    -moz-transition: all 400ms ease-out;
+    -o-transition: all 400ms ease-out;
+    -ms-transition: all 400ms ease-out;
+    transition: all 400ms ease-out;
+    text-align: center;
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+    top: 8px;
+    
+ }
+
+
+ .img-1, .hidden:hover{
+    opacity: 1;
+    transition-duration: 0.4s;
+ }
+
+
+ .img-5, .hidden:hover{
+    opacity: 1;
+    transition-duration: 0.4s;
+ }
+ 
+
+ .hidden-link{
+   background-color: black;
+    position: relative;
+    top: 8px;
+    height: 2rem;
+    text-decoration: none;
+    color: white;
+    font-size: small;
+    
+ }
+
+ .hidden-link:hover{
+     background-color: white;
+     color: white;
+     
+ }
+ .hidden-link a{
+   text-decoration: none;
+   color: white;
+   
+ }
+
+ .hidden-link a:hover{
+    color: black;
+    font-size: small;
+    text-decoration: none;
+ }
+.hidden p{
+    font-size: small;
+}
+.hidden h5, h6{
+    margin-top: 9px;
+}
+
+.content{
+    padding: 10px 20px;
+    margin-left: 30px;
+}
+.content h2{
+    font-weight: 700;
+   
+}
+.content p{
+    color: grey;
+   
+}
+
+
+.img-4 img{
+     height: 33vh;
+     object-fit: cover;
+     width: 100%;
+}
+
+.img-6 {
+   position: relative;
+   justify-content: center;
+   text-align: center;
+   padding: 20px;
+   padding-top: 3rem;
+   height: 33vh;
+   background-color: rgb(246, 246, 246);
+      
+}
+.img-6 p {
+   font-family: 'Courgette', cursive;
+   color: grey;
+   font-size: 14px;
+}
+
+.img-6 h4{
+   font-weight: 750;
+}
+
+.new-banner{
+   padding-top: 15px;
+   /* padding-left: 35px; */
+   height: 100%;
+   width: 100%;
+   
+  
+}
+
+.new-banner img{
+   width: 100%;
+   object-fit: cover;
+
+}
+.new-link {
+   border: 1px solid black;
+   height: 40px;
+   width: 120px;
+   background-color: white;
+   margin-top: 10px;
+}
+.new-link a{
+   text-decoration: none;
+   color: black;
+   font-size: small;
+}
+
+.new-link:hover{
+   background-color: black;
+   
+}
+.new-link a:hover {
+   color: white;
+}
+.textt{
+   color: grey;
+   font-family: 'Courgette', cursive;
+}
+
+.social-banner{
+   height: 100%;
+   width: 100%;
+}
+
+.social-banner img{
+   width: 100%;
+   object-fit: cover;
+   height: 33vh;
+}
+
+.new-img{
+   object-fit: cover;
+   width: 100%;
+}
+
+.input-2 {
+   position: relative;
+   bottom: 20px;
+   width: 100%;
+   height: 40px;
+   
+   
+}
+.input {
+   width: 100%;
+   height: 40px;
+   padding: 10px;
+   font-size: 13px;
+   font-family: 'Courgette', cursive;
+  
+}
+.tele-icon{
+   position: relative;
+   bottom: 18px;
+   padding-bottom: 30px;
+   height: 38px;
+   border: 1px solid black;
+   width: 100%;
+   /* background: black; */
+}
+#icon{
+   position: relative;
+   justify-content: center;
+   width: 25px;
+   margin-right: 10px;
+   color: white;
+}
+
+.img-7 {
+   height: 10vh;
+}
+.img-7 h5{
+    font-size: 15px;
+    font-weight: 750;
+    /* padding-top: 10px; */
+    width: 100%;
+ 
+}
+
+.img-8 h2{
+   font-weight: 780;
+   padding-top: 15px;
+   width: 100%;
+   
+
+}
+.grey-color{
+   color: grey;
+   text-decoration: none;
+   width: 100%;
+   font-size: 13px;
+   font-weight: 600;
+   margin-top: 30px;
+}
+
+#short-color{
+    position: relative;
+    bottom: 9px;
+     color: grey;
+     text-decoration: none;
+     font-size: 14px;
+    
+}
+
+.latest-banner{
+    position: relative;
+    top: 4rem;
+    width: 100%;
+}
+ .lastest, .latest-text a{
+   position: relative;
+   top: 15px;
+   bottom: 20px;
+   text-decoration: none;
+   color: white;
+   
+}
+.company{
+   position: relative;
+   right: 1rem;
+   font-family: sans-serif;
+} 
+
+#latest-banner, .latest-text h6{
+   color: white;
+}
+
+.lastest{
+   position: relative;
+   top: -1rem;
+   left: 3.6rem;
+   text-decoration: none;
+   font-size: smaller;
+   color: grey;
+}
+.latest-text a:hover{
+   color: grey;
+}
+.last {
+   position: relative;
+   text-align: center;
+   color: white;
+   /* text-decoration: none; */
+
+}
+.last a{
+   text-decoration: none;
+   color: #10d11a91;
+}
